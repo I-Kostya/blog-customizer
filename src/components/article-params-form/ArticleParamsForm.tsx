@@ -21,17 +21,15 @@ import { RadioGroup } from '../radio-group';
 import { Separator } from '../separator';
 
 type ArticleParamsFormProps = {
-	currentArticleState: ArticleStateType;
 	setCurrentArticleState: (newState: ArticleStateType) => void;
 };
 
 export const ArticleParamsForm = ({
-	currentArticleState,
 	setCurrentArticleState,
 }: ArticleParamsFormProps) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [selectArticleState, setSelectArticleState] =
-		useState<ArticleStateType>(currentArticleState);
+		useState<ArticleStateType>(defaultArticleState);
 
 	const rootRef = useRef<HTMLDivElement>(null);
 
