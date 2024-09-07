@@ -2,7 +2,7 @@ import { ArrowButton } from 'components/arrow-button';
 import { Button } from 'components/button';
 
 import styles from './ArticleParamsForm.module.scss';
-import { useRef, useState } from 'react';
+import { SyntheticEvent, useRef, useState } from 'react';
 import clsx from 'clsx';
 import { useOutsideClickClose } from '../select/hooks/useOutsideClickClose';
 import {
@@ -35,12 +35,12 @@ export const ArticleParamsForm = ({
 
 	const toggleOpenForm = () => setIsOpen(!isOpen);
 
-	const handleSubmit = (evt: React.FormEvent) => {
+	const handleSubmit = (evt: SyntheticEvent) => {
 		evt.preventDefault();
 		setCurrentArticleState(selectArticleState);
 	};
 
-	const handleReset = (evt: React.FormEvent) => {
+	const handleReset = (evt: SyntheticEvent) => {
 		evt.preventDefault();
 		setCurrentArticleState(defaultArticleState);
 		setSelectArticleState(defaultArticleState);
