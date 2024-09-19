@@ -1,8 +1,20 @@
-# Проектная работа: Вёрстка проекта
+# Проектная работа "Настройка блога"
+
+### Описание проекта
+Одностраничный лендинг, в котором можно настраивать стилизацию блога через раскрывающееся меню выбирая различные настройки
+
+### Стек: 
+SCSS, TypeScript, React, Storybook
+
+### Макет
+Ссылка на [макет](https://www.figma.com/design/nwYaFLCtaZVxEUH5Y6IXjt/Custom-dropdown?node-id=0-1&node-type=canvas&t=F0HUpLNG3ehule4t-0)
+
+### Расположение
+Посмотреть на проект можно по адресу [https://i-kostya.github.io/blog-customizer/](https://i-kostya.github.io/blog-customizer/)
+
+
 
 ## Шаг первый. Изучаем имеющиеся компоненты
-
-[Макет проекта](https://www.figma.com/file/FEeiiGLOsE7ktXbPpBxYoD/Custom-dropdown?type=design&node-id=0%3A1&mode=design&t=eXRJnWC6Xsuw0qR4-1)
 
 Для запуска Storybook выполните:
 
